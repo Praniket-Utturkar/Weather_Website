@@ -4,12 +4,17 @@
   "description": "creating a weather nodejs website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Praniket Utturkar",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.0.2",
+    "open": "^10.1.0",
     "requests": "^0.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
